@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB0D937190E734B00FC2BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0D936190E734B00FC2BCE /* Foundation.framework */; };
+		5DB0D939190E734B00FC2BCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0D938190E734B00FC2BCE /* CoreGraphics.framework */; };
+		5DB0D93B190E734B00FC2BCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0D93A190E734B00FC2BCE /* UIKit.framework */; };
+		5DB0D941190E734B00FC2BCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0D93F190E734B00FC2BCE /* InfoPlist.strings */; };
+		5DB0D943190E734B00FC2BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D942190E734B00FC2BCE /* main.m */; };
+		5DB0D947190E734B00FC2BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D946190E734B00FC2BCE /* AppDelegate.m */; };
+		5DB0D94A190E734B00FC2BCE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0D948190E734B00FC2BCE /* Main_iPhone.storyboard */; };
+		5DB0D94D190E734B00FC2BCE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0D94B190E734B00FC2BCE /* Main_iPad.storyboard */; };
+		5DB0D950190E734B00FC2BCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D94F190E734B00FC2BCE /* ViewController.m */; };
+		5DB0D952190E734B00FC2BCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0D951190E734B00FC2BCE /* Images.xcassets */; };
+		5DB0D959190E734B00FC2BCE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0D958190E734B00FC2BCE /* XCTest.framework */; };
+		5DB0D95A190E734B00FC2BCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0D936190E734B00FC2BCE /* Foundation.framework */; };
+		5DB0D95B190E734B00FC2BCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0D93A190E734B00FC2BCE /* UIKit.framework */; };
+		5DB0D963190E734B00FC2BCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0D961190E734B00FC2BCE /* InfoPlist.strings */; };
+		5DB0D965190E734B00FC2BCE /* AutoLogOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D964190E734B00FC2BCE /* AutoLogOutTests.m */; };
+		5DB0D971190E73D200FC2BCE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D970190E73D200FC2BCE /* LoginViewController.m */; };
+		5DB0D974190E75C300FC2BCE /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D973190E75C300FC2BCE /* ContentViewController.m */; };
+		5DB0D977190E786600FC2BCE /* AutoLogOutUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB0D976190E786600FC2BCE /* AutoLogOutUIApplication.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DB0D95C190E734B00FC2BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB0D92B190E734B00FC2BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB0D932190E734B00FC2BCE;
+			remoteInfo = AutoLogOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DB0D933190E734B00FC2BCE /* AutoLogOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLogOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB0D936190E734B00FC2BCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DB0D938190E734B00FC2BCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DB0D93A190E734B00FC2BCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DB0D93E190E734B00FC2BCE /* AutoLogOut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLogOut-Info.plist"; sourceTree = "<group>"; };
+		5DB0D940190E734B00FC2BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DB0D942190E734B00FC2BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DB0D944190E734B00FC2BCE /* AutoLogOut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoLogOut-Prefix.pch"; sourceTree = "<group>"; };
+		5DB0D945190E734B00FC2BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DB0D946190E734B00FC2BCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DB0D949190E734B00FC2BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5DB0D94C190E734B00FC2BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5DB0D94E190E734B00FC2BCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DB0D94F190E734B00FC2BCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DB0D951190E734B00FC2BCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DB0D957190E734B00FC2BCE /* AutoLogOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLogOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB0D958190E734B00FC2BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5DB0D960190E734B00FC2BCE /* AutoLogOutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLogOutTests-Info.plist"; sourceTree = "<group>"; };
+		5DB0D962190E734B00FC2BCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DB0D964190E734B00FC2BCE /* AutoLogOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLogOutTests.m; sourceTree = "<group>"; };
+		5DB0D96F190E73D200FC2BCE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = VCs/LoginViewController.h; sourceTree = "<group>"; };
+		5DB0D970190E73D200FC2BCE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = VCs/LoginViewController.m; sourceTree = "<group>"; };
+		5DB0D972190E75C300FC2BCE /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		5DB0D973190E75C300FC2BCE /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		5DB0D975190E786600FC2BCE /* AutoLogOutUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLogOutUIApplication.h; sourceTree = "<group>"; };
+		5DB0D976190E786600FC2BCE /* AutoLogOutUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLogOutUIApplication.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB0D930190E734B00FC2BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0D939190E734B00FC2BCE /* CoreGraphics.framework in Frameworks */,
+				5DB0D93B190E734B00FC2BCE /* UIKit.framework in Frameworks */,
+				5DB0D937190E734B00FC2BCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0D954190E734B00FC2BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0D959190E734B00FC2BCE /* XCTest.framework in Frameworks */,
+				5DB0D95B190E734B00FC2BCE /* UIKit.framework in Frameworks */,
+				5DB0D95A190E734B00FC2BCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB0D92A190E734B00FC2BCE = {
+			isa = PBXGroup;
+			children = (
+				5DB0D93C190E734B00FC2BCE /* AutoLogOut */,
+				5DB0D95E190E734B00FC2BCE /* AutoLogOutTests */,
+				5DB0D935190E734B00FC2BCE /* Frameworks */,
+				5DB0D934190E734B00FC2BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB0D934190E734B00FC2BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D933190E734B00FC2BCE /* AutoLogOut.app */,
+				5DB0D957190E734B00FC2BCE /* AutoLogOutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB0D935190E734B00FC2BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D936190E734B00FC2BCE /* Foundation.framework */,
+				5DB0D938190E734B00FC2BCE /* CoreGraphics.framework */,
+				5DB0D93A190E734B00FC2BCE /* UIKit.framework */,
+				5DB0D958190E734B00FC2BCE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DB0D93C190E734B00FC2BCE /* AutoLogOut */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D96E190E739F00FC2BCE /* VCs */,
+				5DB0D945190E734B00FC2BCE /* AppDelegate.h */,
+				5DB0D946190E734B00FC2BCE /* AppDelegate.m */,
+				5DB0D948190E734B00FC2BCE /* Main_iPhone.storyboard */,
+				5DB0D94B190E734B00FC2BCE /* Main_iPad.storyboard */,
+				5DB0D94E190E734B00FC2BCE /* ViewController.h */,
+				5DB0D94F190E734B00FC2BCE /* ViewController.m */,
+				5DB0D975190E786600FC2BCE /* AutoLogOutUIApplication.h */,
+				5DB0D976190E786600FC2BCE /* AutoLogOutUIApplication.m */,
+				5DB0D951190E734B00FC2BCE /* Images.xcassets */,
+				5DB0D93D190E734B00FC2BCE /* Supporting Files */,
+			);
+			path = AutoLogOut;
+			sourceTree = "<group>";
+		};
+		5DB0D93D190E734B00FC2BCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D93E190E734B00FC2BCE /* AutoLogOut-Info.plist */,
+				5DB0D93F190E734B00FC2BCE /* InfoPlist.strings */,
+				5DB0D942190E734B00FC2BCE /* main.m */,
+				5DB0D944190E734B00FC2BCE /* AutoLogOut-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DB0D95E190E734B00FC2BCE /* AutoLogOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D964190E734B00FC2BCE /* AutoLogOutTests.m */,
+				5DB0D95F190E734B00FC2BCE /* Supporting Files */,
+			);
+			path = AutoLogOutTests;
+			sourceTree = "<group>";
+		};
+		5DB0D95F190E734B00FC2BCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D960190E734B00FC2BCE /* AutoLogOutTests-Info.plist */,
+				5DB0D961190E734B00FC2BCE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DB0D96E190E739F00FC2BCE /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				5DB0D96F190E73D200FC2BCE /* LoginViewController.h */,
+				5DB0D970190E73D200FC2BCE /* LoginViewController.m */,
+				5DB0D972190E75C300FC2BCE /* ContentViewController.h */,
+				5DB0D973190E75C300FC2BCE /* ContentViewController.m */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DB0D932190E734B00FC2BCE /* AutoLogOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB0D968190E734B00FC2BCE /* Build configuration list for PBXNativeTarget "AutoLogOut" */;
+			buildPhases = (
+				5DB0D92F190E734B00FC2BCE /* Sources */,
+				5DB0D930190E734B00FC2BCE /* Frameworks */,
+				5DB0D931190E734B00FC2BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLogOut;
+			productName = AutoLogOut;
+			productReference = 5DB0D933190E734B00FC2BCE /* AutoLogOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DB0D956190E734B00FC2BCE /* AutoLogOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB0D96B190E734B00FC2BCE /* Build configuration list for PBXNativeTarget "AutoLogOutTests" */;
+			buildPhases = (
+				5DB0D953190E734B00FC2BCE /* Sources */,
+				5DB0D954190E734B00FC2BCE /* Frameworks */,
+				5DB0D955190E734B00FC2BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB0D95D190E734B00FC2BCE /* PBXTargetDependency */,
+			);
+			name = AutoLogOutTests;
+			productName = AutoLogOutTests;
+			productReference = 5DB0D957190E734B00FC2BCE /* AutoLogOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB0D92B190E734B00FC2BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Geniusmatcher;
+				TargetAttributes = {
+					5DB0D956190E734B00FC2BCE = {
+						TestTargetID = 5DB0D932190E734B00FC2BCE;
+					};
+				};
+			};
+			buildConfigurationList = 5DB0D92E190E734B00FC2BCE /* Build configuration list for PBXProject "AutoLogOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DB0D92A190E734B00FC2BCE;
+			productRefGroup = 5DB0D934190E734B00FC2BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB0D932190E734B00FC2BCE /* AutoLogOut */,
+				5DB0D956190E734B00FC2BCE /* AutoLogOutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DB0D931190E734B00FC2BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0D94D190E734B00FC2BCE /* Main_iPad.storyboard in Resources */,
+				5DB0D952190E734B00FC2BCE /* Images.xcassets in Resources */,
+				5DB0D94A190E734B00FC2BCE /* Main_iPhone.storyboard in Resources */,
+				5DB0D941190E734B00FC2BCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0D955190E734B00FC2BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0D963190E734B00FC2BCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB0D92F190E734B00FC2BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0D971190E73D200FC2BCE /* LoginViewController.m in Sources */,
+				5DB0D974190E75C300FC2BCE /* ContentViewController.m in Sources */,
+				5DB0D950190E734B00FC2BCE /* ViewController.m in Sources */,
+				5DB0D947190E734B00FC2BCE /* AppDelegate.m in Sources */,
+				5DB0D943190E734B00FC2BCE /* main.m in Sources */,
+				5DB0D977190E786600FC2BCE /* AutoLogOutUIApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB0D953190E734B00FC2BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB0D965190E734B00FC2BCE /* AutoLogOutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB0D95D190E734B00FC2BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB0D932190E734B00FC2BCE /* AutoLogOut */;
+			targetProxy = 5DB0D95C190E734B00FC2BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DB0D93F190E734B00FC2BCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB0D940190E734B00FC2BCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DB0D948190E734B00FC2BCE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB0D949190E734B00FC2BCE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB0D94B190E734B00FC2BCE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB0D94C190E734B00FC2BCE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB0D961190E734B00FC2BCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB0D962190E734B00FC2BCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DB0D966190E734B00FC2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DB0D967190E734B00FC2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB0D969190E734B00FC2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLogOut/AutoLogOut-Prefix.pch";
+				INFOPLIST_FILE = "AutoLogOut/AutoLogOut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DB0D96A190E734B00FC2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLogOut/AutoLogOut-Prefix.pch";
+				INFOPLIST_FILE = "AutoLogOut/AutoLogOut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DB0D96C190E734B00FC2BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoLogOut.app/AutoLogOut";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLogOut/AutoLogOut-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutoLogOutTests/AutoLogOutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5DB0D96D190E734B00FC2BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoLogOut.app/AutoLogOut";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLogOut/AutoLogOut-Prefix.pch";
+				INFOPLIST_FILE = "AutoLogOutTests/AutoLogOutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB0D92E190E734B00FC2BCE /* Build configuration list for PBXProject "AutoLogOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB0D966190E734B00FC2BCE /* Debug */,
+				5DB0D967190E734B00FC2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB0D968190E734B00FC2BCE /* Build configuration list for PBXNativeTarget "AutoLogOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB0D969190E734B00FC2BCE /* Debug */,
+				5DB0D96A190E734B00FC2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB0D96B190E734B00FC2BCE /* Build configuration list for PBXNativeTarget "AutoLogOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB0D96C190E734B00FC2BCE /* Debug */,
+				5DB0D96D190E734B00FC2BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB0D92B190E734B00FC2BCE /* Project object */;
+}
